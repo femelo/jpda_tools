@@ -1,7 +1,7 @@
 %% clear memory, screen, and close all figures
 clear, clc, close all;
 addpath('export_fig');
-addpath('tree');
+addpath('matlab-tree');
 
 %% Constant velocity model parameters
 T = 1;

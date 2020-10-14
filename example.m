@@ -1,7 +1,7 @@
 %% clear memory, screen, and close all figures
 clear, clc, close all;
 addpath('export_fig');
-addpath('tree');
+addpath('matlab-tree');
 
 %% Process equation for targets x[k] = sys_f(x[k-1], P[k-1], u[k-1], Q[k-1]);
 nt = 10; % number of targets
